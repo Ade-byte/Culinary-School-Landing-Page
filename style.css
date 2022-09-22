@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+    background: #E8DFCA;
+    align-content: center;
+    background-color: #FCF5EE;
+    font-family: 'PT Serif', sans-serif;
+    margin: 8px;
+}
+
+.box-form {
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 80%;
+    background: #FDEEDC;
+    display: flex;
+    flex: 1 1 100%;
+    overflow: hidden;
+    
+    box-shadow: 0 0 20px 6px #cfbcb6;
+}
+@media (max-width: 800px) {
+    .box-form{
+        flex-flow: wrap;
+        align-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+}
+
+.box-form div {
+    height: auto;
+}
+
+.box-form .left {
+    color: #1B1C1E;
+    background-image: url('https://images.unsplash.com/photo-1577219492769-b63a779fac28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=398&q=80');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.box-form .left .overlay {
+    padding: 10%;
+    width: 100%;
+    height: 100%;
+    /* background: #F5EDDC; */
+    /* opacity: 0.5; */
+}
+
+.box-form .left .overlay h1 {
+    font-size: 10vmax;
+    line-height: 1;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color: #080402
+}
+
+.box-form .left .overlay span p {
+    font-weight: 500;
+}
+
+.box-form .left .overlay span a {
+    color: #FFFFFF;
+    background-color: #3b5998;
+}
+
+.box-form .right {
+    padding: 5%;
+    align-content: center;
+    align-items: center;
+    border-top: auto;
+    border-bottom: auto;
+}
+@media (max-width: 720px) {
+    .box-form .right {
+        width: 100%;
+    }
+}
+
+.box-form .right h2 {
+    font-size: 4vmax;
+    line-height: 0;
+    padding-bottom: 50px;
+    color: #333333
+}
+.form-control, .form-inputs {
+    background-color: #FDEEDC;
+}
+
+
+.box-form .right .form-control {
+    border: none;
+}
+.box-form .right .inputs {
+    overflow: hidden;
+}
+
+.box-form .right input {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #B0B3B9;
+    padding: 5px;
+    background-color: #FDEEDC;
+}
+
+
+.box-form .right #exampleRecipientInput {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #B0B3B9;
+    padding: 10px;
+}
+
+.box-form .right button {
+    float: right;
+}
+
+
+button {
+    display: flex;
+}
+.facebook {
+    background: #4267B2
+}
+
+
+.twitter {
+    background: #1DA1F2
+}
+
+.linkedin {
+    background: #0072b1
+}
